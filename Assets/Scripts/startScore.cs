@@ -11,7 +11,7 @@ public class startScore : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider col)
 	{
-		if (col.tag == "Player") {
+		if (col.CompareTag("Player")) {
 			startCountScore = true;
 		}
 	}

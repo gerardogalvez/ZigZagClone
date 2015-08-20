@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour {
 			if (Input.GetKeyDown ("left"))
 			{
 				movementDirection = new Vector3 (-1, 0, 1);
-				if (startScore.startCountScore && goingRight && this.gameObject.tag == "Player")
+				if (startScore.startCountScore && goingRight && this.gameObject.CompareTag("Player"))
 					score = score + 1;
 				goingLeft = true;
 				goingRight = false;
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour {
 			else if (Input.GetKeyDown ("right"))
 			{
 				movementDirection = new Vector3 (1, 0, 1);
-				if (startScore.startCountScore && goingLeft && this.gameObject.tag == "Player")
+				if (startScore.startCountScore && goingLeft && this.gameObject.CompareTag("Player"))
 					score = score + 1;
 				goingLeft = false;
 				goingRight = true;
@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour {
 
 			this.transform.Translate (movementDirection * Time.deltaTime * speed);
 
-			if (this.transform.position.y < 0.75f && this.tag == "Player") {
+			if (this.transform.position.y < 0.75f && this.gameObject.CompareTag("Player")) {
 				StartOptions.gameHasStarted = false;
 				Destroy(GameObject.Find("UI"));
 				Application.LoadLevel (0);

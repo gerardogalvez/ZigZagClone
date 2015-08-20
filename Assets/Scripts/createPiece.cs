@@ -24,7 +24,7 @@ public class createPiece : MonoBehaviour {
 	void OnTriggerEnter(Collider co)
 	{
 
-		if (co.gameObject.tag == "Right") {
+		if (co.gameObject.CompareTag("Right")) {
 			nextPiece = Random.Range (1, 3);
 
 			//Don't let a same piece spawn 4 times in a row

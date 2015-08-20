@@ -5,7 +5,7 @@ public class destroyPiece : MonoBehaviour {
 
 	void OnTriggerEnter(Collider co)
 	{
-		if (co.gameObject.tag == "Right") {
+		if (co.gameObject.CompareTag("Right")) {
 			Destroy(co.gameObject);
 		}
 	}
