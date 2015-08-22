@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour {
 
 			this.transform.Translate (movementDirection * Time.deltaTime * speed);
 
-			if (this.transform.position.y < 0.75f && this.gameObject.CompareTag("Player")) {
+			if (this.transform.position.y < 0.8f && this.gameObject.CompareTag("Player")) {
 				StartOptions.gameHasStarted = false;
 				Destroy(GameObject.Find("UI"));
 				Application.LoadLevel (0);
