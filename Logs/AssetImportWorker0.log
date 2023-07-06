@@ -1,7 +1,17 @@
+Unity Editor version:    2020.3.48f1 (b805b124c6b7)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
+Pro License: NO
 
- COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -12,141 +22,176 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60189
+63241
 Successfully changed project path to: /Users/gerardogalvez/dev/ZigZagClone
 /Users/gerardogalvez/dev/ZigZagClone
 Using Asset Import Pipeline V2.
+Player connection [140704565797696] Host "[IP] 192.168.1.248 [Port] 0 [Flags] 2 [Guid] 600804984 [EditorId] 600804984 [Version] 1048832 [Id] OSXEditor(0,Gerardo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704565797696] Host "[IP] 192.168.1.248 [Port] 0 [Flags] 2 [Guid] 600804984 [EditorId] 600804984 [Version] 1048832 [Id] OSXEditor(0,Gerardo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
 Default GameObject Tag: Player already registered
-
 Platform WindowsStandaloneSupport does not support graphics device type 
-
-Refreshing native plugins compatible for Editor in 69.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.5f1 (8095aa901b9b)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2020.3.48f1 (b805b124c6b7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gerardogalvez/dev/ZigZagClone/Assets
 GfxDevice: creating device client; threaded=0
-2023-07-04 23:34:03.174 Unity[57508:1239997] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2023-07-04 23:34:03.175 Unity[57508:1239997] Metal devices available: 1
-2023-07-04 23:34:03.175 Unity[57508:1239997] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2023-07-04 23:34:03.175 Unity[57508:1239997] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2023-07-06 00:16:17.285 Unity[64712:1390566] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2023-07-06 00:16:17.286 Unity[64712:1390566] Metal devices available: 1
+2023-07-06 00:16:17.286 Unity[64712:1390566] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2023-07-06 00:16:17.287 Unity[64712:1390566] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001090 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005552 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.452 seconds
+- Completed reload, in  1.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000544 seconds.
+Registered in 0.005911 seconds.
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on EventSystemChecker
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
 OnLevelWasLoaded was found on PlayMusic
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.043 seconds
+- Completed reload, in  1.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1714ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1384ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.002140 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.002584 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2023-07-06 00:16:24.292 Unity[64712:1390566] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f983a991980 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-07-06 00:16:24.299 Unity[64712:1390566] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f983a990a40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Default GameObject Tag: Player already registered
-
 Platform WindowsStandaloneSupport does not support graphics device type 
-
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.2 MB.
-System memory in use after: 42.3 MB.
+Unloading 1340 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 79.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1579.
-Total: 5.473317 ms (FindLiveObjects: 0.704751 ms CreateObjectMapping: 0.093072 ms MarkObjects: 4.571634 ms  DeleteObjects: 0.102164 ms)
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 5.671881 ms (FindLiveObjects: 0.165291 ms CreateObjectMapping: 0.077204 ms MarkObjects: 4.516851 ms  DeleteObjects: 0.911347 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/game.unity
-  artifactKey: Guid(063f137dba5b4184cbb9afa6a0585836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/game.unity using Guid(063f137dba5b4184cbb9afa6a0585836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178e75e86b9329d0b67fc83ae054812c') in 0.030298 seconds
-  Import took 0.033588 seconds .
-
+  path: Assets/gfx/Icons/remote-icon-1024.png
+  artifactKey: Guid(c379656594f91445898d48eb96df3e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gfx/Icons/remote-icon-1024.png using Guid(c379656594f91445898d48eb96df3e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4297906bfdc337b69afe04542e1836c') in 1.481747 seconds 
 ========================================================================
 Received Prepare
 Default GameObject Tag: Player already registered
-
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 19.6 MB.
-System memory in use after: 19.7 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.6 MB.
+System memory in use after: 56.7 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1579.
-Total: 5.050878 ms (FindLiveObjects: 0.341908 ms CreateObjectMapping: 0.056173 ms MarkObjects: 4.634995 ms  DeleteObjects: 0.016001 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 8.720208 ms (FindLiveObjects: 0.216465 ms CreateObjectMapping: 0.068217 ms MarkObjects: 8.401654 ms  DeleteObjects: 0.032529 ms)
 
-========================================================================
-Received Prepare
-Default GameObject Tag: Player already registered
-
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
-OnLevelWasLoaded was found on EventSystemChecker
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-OnLevelWasLoaded was found on PlayMusic
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Begin MonoManager ReloadAssembly
-OnLevelWasLoaded was found on PlayMusic
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-OnLevelWasLoaded was found on EventSystemChecker
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.337 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 45.0 MB.
-System memory in use after: 45.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 2.710957 ms (FindLiveObjects: 0.332481 ms CreateObjectMapping: 0.097732 ms MarkObjects: 2.255589 ms  DeleteObjects: 0.020475 ms)
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
