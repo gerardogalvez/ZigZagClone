@@ -77,18 +77,18 @@ public class ScreenStream: MonoBehaviour
 
 	void LateUpdate()
 	{
-		Profiler.BeginSample("ScreenStream.LateUpdate");
+		UnityEngine.Profiling.Profiler.BeginSample("ScreenStream.LateUpdate");
 
 		if (screen == null || screen.width != width || screen.height != height)
 			screen = new Texture2D(width, height, TextureFormat.RGB24, false);
 
-		Profiler.BeginSample("LoadImage");
+		UnityEngine.Profiling.Profiler.BeginSample("LoadImage");
 		if ((image != null) && screen.LoadImage(image))
 			synced = true;
 		image = null;
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 

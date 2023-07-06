@@ -145,7 +145,7 @@ public class RemoteConnection : MonoBehaviour
 
 	void ProcessIncomingData()
 	{
-		Profiler.BeginSample("ProcessIncomingData");
+		UnityEngine.Profiling.Profiler.BeginSample("ProcessIncomingData");
 
 		if (m_tcpClient.Client.Available == 0)
 			return;
@@ -154,7 +154,7 @@ public class RemoteConnection : MonoBehaviour
 		m_dataReceiver.AppendData(stream, m_tcpClient.Available);
 		m_dataReceiver.ProcessMessages();
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 
@@ -166,9 +166,9 @@ public class RemoteConnection : MonoBehaviour
 			{
 				Texture2D image = device.GetImage();
 
-				Profiler.BeginSample("EncodeToJPG");
+				UnityEngine.Profiling.Profiler.BeginSample("EncodeToJPG");
 				byte[] encoded = image.EncodeToJPG();
-				Profiler.EndSample();
+				UnityEngine.Profiling.Profiler.EndSample();
 
 				int angle = device.texture.videoRotationAngle;
 				bool mirrored = device.texture.videoVerticallyMirrored;
@@ -180,7 +180,7 @@ public class RemoteConnection : MonoBehaviour
 
 	void ProcessOutgoingData()
 	{
-		Profiler.BeginSample("ProcessOutgoingData");
+		UnityEngine.Profiling.Profiler.BeginSample("ProcessOutgoingData");
 
 		m_dataSender.SendOptions();
 		m_dataSender.SendDeviceOrientation();
@@ -211,7 +211,7 @@ public class RemoteConnection : MonoBehaviour
 		m_writeStream.Position = 0;
 		m_writeStream.SetLength(0);
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 }
 

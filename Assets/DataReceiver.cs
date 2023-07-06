@@ -37,18 +37,18 @@ public class DataReceiver
 
 	public void AppendData(Stream stream, int available)
 	{
-		Profiler.BeginSample("AppendData");
+		UnityEngine.Profiling.Profiler.BeginSample("AppendData");
 
 		data.Position = data.Length;
 		Utils.CopyToStream(stream, data, buffer, available);
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 
 	public void ProcessMessages()
 	{
-		Profiler.BeginSample("ProcessMessages");
+		UnityEngine.Profiling.Profiler.BeginSample("ProcessMessages");
 
 		data.Position = 0;
 
@@ -62,7 +62,7 @@ public class DataReceiver
 		data.Position = 0;
 		data.SetLength(left);
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 
@@ -90,7 +90,7 @@ public class DataReceiver
 
 	public void ProcessMessage(Stream stream)
 	{
-		Profiler.BeginSample("ProcessMessage");
+		UnityEngine.Profiling.Profiler.BeginSample("ProcessMessage");
 
 		BinaryReader reader = new BinaryReader(data);
 		byte msg = reader.ReadByte();
@@ -113,7 +113,7 @@ public class DataReceiver
 			reader.ReadBytes((int)size);
 		}
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
+using UnityEditor.Build.Reporting;
 using System;
 using System.Collections;
 
@@ -11,9 +12,8 @@ public static class Builder
 	[MenuItem("Build/Build iOS")]
 	public static void BuildiOS()
 	{
-		string error = BuildPipeline.BuildPlayer(scenes, "build/UnityRemoteNG-iOS", BuildTarget.iOS, BuildOptions.None);
-
-		if (error != null && error.Length > 0) {
+		BuildReport error = BuildPipeline.BuildPlayer(scenes, "build/UnityRemoteNG-iOS", BuildTarget.iOS, BuildOptions.None);
+		if (error != null) {
 			throw new Exception("Build failed: " + error);
 		}
 	}
@@ -24,9 +24,9 @@ public static class Builder
 	{
 		string sdk = Environment.GetEnvironmentVariable("ANDROID_SDK_ROOT");
 		EditorPrefs.SetString("AndroidSdkRoot", sdk);
-		string error = BuildPipeline.BuildPlayer(scenes, "build/UnityRemoteNG-Android.apk", BuildTarget.Android, BuildOptions.None);
+		BuildReport error = BuildPipeline.BuildPlayer(scenes, "build/UnityRemoteNG-Android.apk", BuildTarget.Android, BuildOptions.None);
 
-		if (error != null && error.Length > 0) {
+		if (error != null) {
 			throw new Exception("Build failed: " + error);
 		}
 	}

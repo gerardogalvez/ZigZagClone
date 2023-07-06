@@ -55,17 +55,17 @@ public class RemoteWebCamDevice
 
 	public Texture2D GetImage()
 	{
-		Profiler.BeginSample("GetImage");
+		UnityEngine.Profiling.Profiler.BeginSample("GetImage");
 
 		CheckTextureChange();
-		Profiler.BeginSample("GetPixels32");
+		UnityEngine.Profiling.Profiler.BeginSample("GetPixels32");
 		texture.GetPixels32(imageBuffer);
-		Profiler.EndSample();
-		Profiler.BeginSample("SetPixels32");
+		UnityEngine.Profiling.Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.BeginSample("SetPixels32");
 		image.SetPixels32(imageBuffer);
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 		return image;
 	}
 
