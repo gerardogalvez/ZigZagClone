@@ -1,2 +1,2 @@
 # Zig Zag Clone
-Playable at: http://gerardogalvez.github.io/zagzig.html
+Playable at: https://gerardogalvez.github.io/ZigZagClone/
